@@ -142,7 +142,7 @@ typeof(f);       answer:undefined
 8.
 
 
-const getRectArea = function(width, height) 
+const getRectArea = function(width, height) // The function keyword can be used to define a function inside an expression.
 {
 
 
