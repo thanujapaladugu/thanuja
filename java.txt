@@ -1,0 +1,94 @@
+4.
+
+
+class lady{
+	void method(){
+		s.o.p("base class get called");
+	}
+}
+
+class Emp1 extends lady{
+	void method(){
+		s.o.p("emp1 sub class get called");
+	}
+}
+
+class Homemaker extends lady{
+	void method(){
+		s.o.p("home maker sub class get called");
+	}
+}
+
+class Member extends lady{
+	void method(){
+		s.o.p("member class get called");
+	}
+}
+
+class Eg{
+	public static void main(String []args){
+		lady a;
+		a=new Emp1;
+		a.method();
+		b=new Homemaker();
+		b.method();
+	}
+} 
+	
+
+
+
+
+------------------------------------------------------------------------------------------------------
+6.
+
+
+
+class Employee{
+	int c=0;
+	void count(){
+		c++;
+		return c;
+	}
+}
+class admin extends Employee{
+	int empid;
+	void create(){
+		s.o.p("new admin with empid"+ empid +"got created");
+	}
+	count();
+	s.o.p("count ="+c);
+}
+
+clasa Manager extends employee{
+	int empidm;
+	void manager create(){
+		s.o.p("new manager with empid" + empidm + "got created");
+	}
+	count();
+	s.o.p("count ="+c);
+}
+
+
+class eg2{
+	public static void main(String []args){
+		admin a =new admin();
+		a.empid=10;
+		a.create();
+		a.empid=20;
+		a.create();
+		a.empid=30;
+		a.create();
+		a.empid=40;
+		a.create();
+		a.empid=50;
+		a.create();
+		manager b =new manager();
+		b.empidm=60;
+		b.managercreate();
+		b.empidm=70;
+		b.managercreate();
+		b.empidm=80;
+		b.managercreate();
+	}
+}

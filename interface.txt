@@ -1,0 +1,10 @@
+1.we can not override.
+  error
+
+2.we have to over ride i2,i3,i4 methods
+
+
+3. no,it is not possible
+
+
+4. yes
